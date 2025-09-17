@@ -2,6 +2,7 @@
   "name": "sigma-web-dev",
   "version": "1.0.0",
   "description": "a backend at chai aur code youtube channel",
+  "type": "commonjs",
   "keywords": [
     "javascript",
     "backend",
@@ -17,10 +18,9 @@
   },
   "license": "ISC",
   "author": "SamiULLAH",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
     "accepts": "^2.0.0",
@@ -90,5 +90,8 @@
     "vary": "^1.1.2",
     "wrappy": "^1.0.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
 }
