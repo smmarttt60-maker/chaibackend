@@ -32,10 +32,10 @@ avatar:{
 coverimage:{
     type:"string",
 },
-// watchHistory:[{
-//     type:"mongoose.Schema.Types.ObjectId",
-//     ref:"Video",
-// },],
+watchHistory:[{
+    type:"mongoose.Schema.Types.ObjectId",
+    ref:"Video",
+},],
 password:{
     type:"string",
     required:[true,'password is required']
